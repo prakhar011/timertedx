@@ -1,0 +1,76 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.btn {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: #008cba;
+}
+#time {
+  font-size: 5em;
+}
+h1 {
+  font-size: 4em;
+}
+.container {
+  margin: auto;
+  text-align: center;
+  line-height: 1.5;
+}
+p {
+  margin-top: 10px;
+}
+@media screen and (max-width: 420px) {
+  img {
+    width: 50%;
+  }
+  #time {
+    font-size: 3em;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  .btn {
+    padding: 10px 21.33333px;
+  }
+}
+body {
+  background-color: #000;
+}
+.container {
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.play-btns {
+  display: flex;
+  justify-content: center;
+}
+.tut-text1 {
+  margin-top: 30px;
+}
+.tut-text {
+  opacity: 0.6;
+}
+.play-btns input {
+  background-color: #b8171a;
+  border-radius: 9px;
+  margin: 0 5px;
+  color: #ffff;
+}
+#time {
+  font-size: 10em;
+  font-weight: 800;
+  margin-bottom: 80px;
+}
